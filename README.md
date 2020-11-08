@@ -14,6 +14,6 @@ A simple cypress project with cucumber, pageobjects and report setup.
 * Opening Cypress:
 `npx cypress open`
 or 
-`./node_modules/.bin/cypress open´
+`./node_modules/.bin/cypress open`
 
 
