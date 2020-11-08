@@ -8,15 +8,15 @@ A simple cypress project with cucumber, pageobjects and report setup.
 # Step-by-Step for project creation and setup
 
 * In project folder, Init the node project for package.json file generate:<br>
- `npm init -y`<br>
+ `npm init -y` <br><br>
 * Install cypress via npm:<br>
-`npm install cypress --save-dev`<br>
+`npm install cypress --save-dev` <br><br>
 * Opening Cypress:<br>
-`npx cypress open`<br>
+`npx cypress open`<br><br>
 or <br>
-`./node_modules/.bin/cypress open`<br>
+`./node_modules/.bin/cypress open`<br><br>
 * Install the cucumber plugin:<br>
-`npm install --save-dev cypress-cucumber-preprocessor`<br>
+`npm install --save-dev cypress-cucumber-preprocessor`<br><br>
 * Add it to your plugin:
 `cypress/plugins/index.js`
 ``` 
