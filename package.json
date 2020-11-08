@@ -1,0 +1,23 @@
+{
+  "name": "cypress-exemple-project",
+  "version": "1.0.0",
+  "description": "A simple cypress project with cucumber, pageobjects and report setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlpdleal/cypress-exemple-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlpdleal/cypress-exemple-project/issues"
+  },
+  "homepage": "https://github.com/mlpdleal/cypress-exemple-project#readme",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
