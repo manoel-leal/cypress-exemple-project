@@ -13,11 +13,11 @@ A simple cypress project with cucumber, pageobjects and report setup.
 `npm install cypress --save-dev` <br><br>
 * Opening Cypress:<br>
 `npx cypress open`<br><br>
-or <br>
+or <br><br>
 `./node_modules/.bin/cypress open`<br><br>
 * Install the cucumber plugin:<br>
 `npm install --save-dev cypress-cucumber-preprocessor`<br><br>
-* Add it to your plugin:
+* Add it to your plugin:<br>
 `cypress/plugins/index.js`
 ``` 
 const cucumber = require('cypress-cucumber-preprocessor').default
