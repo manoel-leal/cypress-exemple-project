@@ -28,6 +28,26 @@ module.exports = (on, config) => {
 
 ```
 
+* Add support for feature files to your Cypress configuration:<br>
+
+`cypress.json`
+
+```
+{
+  "testFiles": "**/*.feature"
+}
+
+```
+
+* Add this section in your package.json:
+
+```
+"cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+}
+
+```
+
 
 # References 
 * https://www.cypress.io/
