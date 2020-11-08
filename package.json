@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mlpdleal/cypress-exemple-project#readme",
   "devDependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
   }
 }
