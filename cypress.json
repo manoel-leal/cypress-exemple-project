@@ -1,1 +1,23 @@
-{}
+{
+
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "defaultCommandTimeout": 150000,
+    "chromeWebSecurity": false,
+    "videoCompression": false,
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "testFiles": "**/*.feature",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+
+}

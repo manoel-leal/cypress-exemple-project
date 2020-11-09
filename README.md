@@ -48,7 +48,19 @@ module.exports = (on, config) => {
 
 ```
 
+* for mochawesome report setup execute the commands:
+
+`npm install mocha --save-dev`<br>
+`npm install cypress-multi-reporters --save-dev`<br>
+`npm install mochawesome --save-dev`<br>
+`npm install mochawesome-merge --save-dev`<br>
+`npm install mochawesome-report-generator --save-dev`<br>
 
 # References 
 * https://www.cypress.io/
 * https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
+* https://www.npmjs.com/package/mochawesome
+* https://martinfowler.com/bliki/PageObject.html
+* https://www.youtube.com/playlist?list=PLzDWIPKHyNmK9NX9_ng2IdrkEr8L4WwB0
+* https://www.youtube.com/watch?v=mfZfhp6Ql8c&t=1333s
+* https://www.youtube.com/playlist?list=PLnUo-Rbc3jjyx5BVnG8MB7vNd5ecu2yP1
