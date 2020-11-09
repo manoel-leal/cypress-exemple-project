@@ -56,6 +56,34 @@ module.exports = (on, config) => {
 `npm install mochawesome-merge --save-dev`<br>
 `npm install mochawesome-report-generator --save-dev`<br>
 
+and add this section in cypress.json file:
+
+```
+ "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+
+```
+
+# Project exemple 
+
+This project contains an exemple test automation code, if you want execute it, you should clone this project:
+
+`https://github.com/mlpdleal/cypress-exemple-project.git`
+
+and execute the command: 
+
+`npm run test`
+
+
 # References 
 * https://www.cypress.io/
 * https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
